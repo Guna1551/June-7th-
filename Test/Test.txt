@@ -1,0 +1,211 @@
+Apti test
+
+Answers
+
+1. a)29
+
+2. c)20
+
+3. b)84
+
+4. c)63
+
+5. c)43
+
+6. b)k
+
+7. a)p
+
+8. b)FR
+
+9. c)bccab
+
+10. a)GOV
+
+11. 2
+
+12. 38
+
+13. Window
+
+14. Sun
+
+15. BE
+
+
+
+JAVA test
+
+1. java and javac are commands, javac is used to compile java programs and create class files, java is used to run the class files.
+
+2. JDK: It is java development kit, it contains JRE and JVM, 
+   JRE: JRE is java run time environment, it contais javac.
+   JVM: JVM is java virtual machine it contains java and libraries
+        
+4. class: class is basically a non primitive datatype and it is also called as design.It contains body.
+   for ex: class Sweet{
+   
+   }//class declaration
+   
+   object: object is a real world entity,
+   
+
+5. Array is group  of values with same datatype.
+   
+   
+6. .java file is the source file of java, it is not platform independent. JAVA cannot understand .java file.
+   .class file is created after the compilation of .java file, .class file is platform independent that is we can run the .class file in any platform.
+   
+
+7. length is 7
+
+
+9. JAVA is a platform independet programming language.
+
+10. Variable is the name given to values.
+    There are three types of variables 
+	1.) Local Variables.
+	2.) Instance variales.
+	3.) Static variables.
+	
+	1.)Local variable is declared inside a method. The scope of local variables ends with the respected method body.
+	    
+	    Ex. class Bike{
+		    public static void main(String[] args){
+			    
+                int a=10;     			
+			
+			}   
+		    }
+	
+	2.)Instance variables is declared inside class but outside the method, we can access the instance variable in anywhere in the class.
+  
+         Ex. class Bike{
+		      
+			      int a=10;
+                  		 
+		    public static void main(String[] args){
+			    
+                System.out.println(a);     			
+			
+			}   
+		    }
+
+	3.)Static variable values are fixed it cannot be re intialized.
+
+	
+12. Data type specifies what type of date can be stored in variables.
+
+     Types of datatypes
+	 1)Primitive Datatype
+	 2)Non Primitive Datatype
+	 
+	 
+	 Primitive datatype
+	 1)byte: is used to store numbers without decimal values.
+	 2)short: is used to store numbers without decimal values.
+	 3)int: is used to store numbers without decimal values.
+	 4)long: is used to store numbers without decimal values.
+	 5)float: is used to store decimal values.
+	 6)double: is used to store decimal values.
+	 7)char: is used to store single character.
+	 8)boolean: true/false.
+	 
+13. JAVA features
+    *Object oriented programming.
+	*Platform Independent.
+	*Easy to learn.
+	*Big Community.
+	
+
+16. It is print statement used to print messages on console.
+
+17. Double equal operator is used to check for validation.
+
+    Ex: if(a==b){
+	}//checking whether a is equal to b through double equal operator
+
+
+18. Dot operator is used to select.
+    
+	Ex: class Gun{
+	      
+		    int a=10;
+			Gun(){
+			}
+		  
+		  
+	     }
+           
+		class GunRunner{
+		     public static void main(String[] args){
+			 Gun ref=new Gun();
+			 System.out.println(ref.a); //We are using . operator to basically tell the compiler to select a from class Gun.
+			 }
+		
+		
+		}
+		
+	
+20. 10 java keywords
+    
+	1) new
+	2) int
+    3) float 
+	4) String
+	5) double
+	6) byte
+	7) char
+	8) boolean
+	9) short
+	10) long
+	
+
+11. class variables are those variables whic declared outside the method and inside the class.
+    These variables can be accessed in any methods declared in the same class.
+
+
+14. Types of arrays
+    
+    Arrays can be classified based on the type of data we are storing in it.
+    1)byte
+    2)int 
+    3)String
+	
+	
+8. public static void main()
+  
+   public: Access Specifier
+   static: Non Access Specifier
+   void: return type
+   main: name of the method
+
+19. object class.
+   
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
