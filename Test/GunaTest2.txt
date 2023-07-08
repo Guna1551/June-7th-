@@ -1,0 +1,132 @@
+Apti Test
+                                    
+1. d. Maternal Uncle
+2. b. Grandfather
+3. a. Brother
+4. c. father
+5. c. Grandson
+6. c. X+A*Y
+7. c. R
+8. b. Brother-inlaw
+9. a. Father
+10. c. S
+11. a. 10Kms 
+12. b. South
+13. a. South-West
+14. South-East
+
+
+JAVA Test
+
+
+1. Error 
+
+2. 10,110
+
+3. Error int cannot be converted to boolean.
+                              
+4. Java starts executing the program from the main method only, if the main method is non-static, then while calling the main method JVM has to instantiate its class.
+   While instantiating it will call the constructor of that class,if the constructor of that class contains any parameter, then there will be some issues.
+
+5. class ReverseArray {  
+    public static void main(String[] args) {  
+         
+        int [] array = new int [] {10, 45, 7, 9, 2};  
+        System.out.println("Original array: ");  
+        for (int arrayIndex = 0; arrayIndex < array.length; arrayIndex++) {  
+            System.out.print(array[arrayIndex] + " ");  
+        }  
+        System.out.println();  
+        System.out.println("Array in reverse order: ");  
+          
+        for (int arrayIndex = array.length-1; arrayIndex >= 0; arrayIndex--) {  
+            System.out.print(array[arrayIndex] + " ");  
+        }  
+    }  
+}
+
+
+6. 
+   import java.util.*;
+
+   class temp
+	{
+	 public static void main(String[] args)
+	{
+
+		
+		int array[] = { 2, 5, 4, 8, 2, 3, 6, 2};
+
+		
+		Arrays.sort(array);
+
+		
+		for (int arrayIndex = 0; arrayIndex < array.length; arrayIndex++) {  
+            System.out.print(array[arrayIndex] + " ");  
+        }  
+        System.out.println();  
+        System.out.println("Array in Descending order: ");  
+          
+        for (int arrayIndex = array.length-1; arrayIndex >= 0; arrayIndex--) {  
+            System.out.print(array[arrayIndex] + " ");  
+        }  
+    } 
+	}
+
+7. Output: Done 
+
+8. this is used with objects only
+   this refers current object 
+
+   this() used with constructors only 
+   this() refers constructor with matching parameter
+   
+
+9. class Swapping{
+	public static void main(String[] args){
+		int a=10;
+		int b=20;
+		
+		System.out.println("Before Swapping");
+		System.out.println("a: " +a);
+		System.out.println("b: "+b);
+		
+		b=a;
+		a=b+10;
+		System.out.println("After Swapping");
+		System.out.println("a: " +a);
+		System.out.println("b: " +b);
+		
+	}
+		
+   
+	}
+
+10. 
+
+class pattern
+{
+	public static void main(String[] args){
+		
+		int i,j,row=3;
+		
+		for(i=0;i<=row-1;i++){
+			for(j=3;j<i;j++){
+				System.out.print("");
+			}
+			for(int k=i;k<= row - 1;k++){
+			System.out.print("&"+"");
+		}
+		System.out.println("");
+		
+	}
+		
+   
+	}
+	
+}
+	
+	
+	
+
+	
